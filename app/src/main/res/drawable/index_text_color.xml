@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/textcolor1" android:state_pressed="false" android:state_selected="true" />
+    <item android:color="@color/textcolor1" android:state_checked="true" android:state_pressed="false" />
+    <item android:color="@color/textcolor" />
+</selector>
+    <!--android:state_pressed:是当控件被按下的时候控件的表示，-->
+    <!--可以实现按下按钮时，按钮变成领一个模样，松开之后又恢复原样-->
+    <!--android:state_selected:图片变一个颜色，比如为图片A，移走时，图片变成另外一个-->
+    <!--组件是否能被check。如：RadioButton是可以被check的-->
